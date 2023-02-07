@@ -1,0 +1,169 @@
+/* ===================
+        Generals
+=====================*/
+
+/* 
+
+fonts:’Maven Pro’ , ‘Gilda Display’ 
+farbe: #333, #ffffff, #3dc8d5, #8507e1, #194894 , #cccccc
+
+*/
+
+@font-face {
+    font-family: "Gilda-Display";
+    src: url('../font/GildaDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Maven-Pro";
+    src: url('../font/Maven_Pro/MavenPro-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================
+        Header
+=====================*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px 40px 20px;
+    font-family: "Maven-Pro";
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header article {
+    width: 250px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgba(133, 7, 225, 1) 0%, rgba(25, 72, 148, 1) 45%, rgba(61, 200, 213, 1) 100%);
+    padding: 10px 0;
+    margin: 283px auto;
+}
+
+header article:hover {
+    background-image: linear-gradient(45deg, rgba(61, 200, 213, 1) 0%, rgba(25, 72, 148, 1) 45%, rgba(133, 7, 225, 1) 100%);
+}
+
+header article h2 {
+    font-family: "Gilda-Display";
+    font-size: 60px;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav a {
+    color: #cccccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* ===================
+        Main
+=====================*/
+
+main section:nth-of-type(1) {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-position: 50px 130px;
+    background-size: 600px;
+    padding: 200px 0 0 50px;
+}
+
+main section:nth-of-type(1) h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+
+}
+
+main section:nth-of-type(1) p {
+    font-family: "Maven-Pro";
+    width: 460px;
+    margin-bottom: 20px;
+}
+
+main section:nth-of-type(1) p:nth-of-type(2) {
+    margin-bottom: 250px;
+}
+
+/* =========================
+    main section bilder
+===========================*/
+
+main section:nth-of-type(2),
+main section:nth-of-type(3),
+main section:nth-of-type(4) {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(2) img,
+main section:nth-of-type(3) img,
+main section:nth-of-type(4) img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+main section:nth-of-type(2) h2,
+main section:nth-of-type(3) h2,
+main section:nth-of-type(4) h2 {
+    font-size: 48px;
+}
+
+main section:nth-of-type(2) p,
+main section:nth-of-type(3) p,
+main section:nth-of-type(4) p {
+    font-family: "Maven-Pro";
+    margin-bottom: 150px;
+}
+
+/* main section:nth-of-type(3) {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(3) img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+main section:nth-of-type(3) h2 {
+    font-size: 48px;
+}
+
+main section:nth-of-type(3) p {
+    font-family: "Maven-Pro";
+    margin-bottom: 150px;
+}
+
+main section:nth-of-type(4) {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(4) img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+main section:nth-of-type(4) h2 {
+    font-size: 48px;
+}
+
+main section:nth-of-type(4) p {
+    font-family: "Maven-Pro";
+    margin-bottom: 150px;
+} */
